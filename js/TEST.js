@@ -1,8 +1,5 @@
 function onDeviceReady() {
-    if (checkConnection()) == true {
-		alert('Connection Made') }
-	else {
-		alert('No connection') }
+    checkConnection();
 };
 
 function checkConnection() {
